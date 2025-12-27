@@ -10,6 +10,7 @@ contract AutoStake is Controllable {
 
   NoMintRewardPool public rewardPool;
   IERC20 public lpToken;
+  IERC20 public lpToken1;
   uint256 public unit = 1e18;
   uint256 public valuePerShare = unit;
   uint256 public totalShares = 0;
